@@ -1,0 +1,236 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin: 0;
+  background-color: #f3f1ec;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Header Part*/
+.site-header {
+  background-color: #4a2c2a;
+  color: white;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo of company/ Coffee Emoji*/
+.logo {
+  margin: 0;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  font-size: 26px;
+}
+
+/* Top Navigation Part*/
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 15px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.main-nav a:hover {
+  border-bottom-color: #BE9757;
+}
+
+/* Sections */
+.section {
+  padding: 40px 0;
+}
+
+.section-white {
+  background-color: #fff;
+}
+
+.section-between {
+  background-color: #F0DEBB;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 26px;
+  
+  text-align: center;
+}
+
+.section-text {
+  max-width: 650px;
+  line-height: 28px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* home section */
+.home {
+  background: linear-gradient(
+    to bottom right,
+        #4a2c2a,
+    #c79a3b
+  );
+  color: white;
+  text-align: center;
+}
+
+.home-inner {
+  line-height: 28px;
+  padding: 40px 0;
+}
+
+.home h2 {
+  margin-top: 0;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.home p {
+  max-width: 500px;
+  margin: 0 auto 20px auto;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #4a2c2a;
+}
+
+.btn-primary:hover {
+  background-color: #f3e3c6;
+}
+
+.btn-secondary {
+  background-color: #c79a3b;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #b18430;
+}
+
+/* Card for menu */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  margin: 20px auto 0 auto;
+}
+
+/* Menu headings with icons */
+.menu-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.menu-icon {
+  font-size: 22px;
+}
+
+.card ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+  line-height: 28px;
+}
+
+/* Contact layout */
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.contact-info{
+    line-height: 28px;
+}
+.contact-info,
+.contact-form {
+  flex: 1 1 250px;
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-message {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #4a2c2a;
+  color: white;
+  font-size: 14px;
+}
+
+/* Simple responsive */
+@media (max-width: 600px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-nav {
+    margin-top: 8px;
+  }
+
+  .main-nav a {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
