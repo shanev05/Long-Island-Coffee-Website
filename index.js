@@ -1,4 +1,4 @@
-// When the "Visit Us" button is clicked, scroll to the contact section
+// When the Visit button is clicked, it will scroll to the contact section
 const visitButton = document.getElementById('visitButton');
 const contactSection = document.getElementById('contact');
 
@@ -8,7 +8,6 @@ if (visitButton && contactSection) {
   });
 }
 
-// Simple form validation
 const form = document.getElementById('contactForm');
 const formMessage = document.getElementById('formMessage');
 
@@ -37,3 +36,4 @@ if (form && formMessage) {
     form.reset();
   });
 }
+
