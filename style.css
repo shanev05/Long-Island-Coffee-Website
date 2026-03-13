@@ -50,7 +50,7 @@ body {
   color: white;
   text-decoration: none;
   margin-left: 15px;
-  font-size: 15px;
+  font-size: 20px;
   padding-bottom: 2px;
   border-bottom: 2px solid transparent;
 }
@@ -82,9 +82,10 @@ body {
 
 .section-text {
   max-width: 650px;
-  line-height: 28px;
+  line-height: 40px;
   margin: 0 auto;
   text-align: center;
+  font-size: 18px;
 }
 
 /* home section */
@@ -99,7 +100,7 @@ body {
 }
 
 .home-inner {
-  line-height: 28px;
+  line-height: 30px;
   padding: 40px 0;
 }
 
@@ -112,6 +113,7 @@ body {
 .home p {
   max-width: 500px;
   margin: 0 auto 20px auto;
+  font-size: 18px;
 }
 
 /* Buttons */
@@ -149,6 +151,7 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   max-width: 600px;
   margin: 20px auto 0 auto;
+  font-size: 18px;
 }
 
 /* Menu headings with icons */
@@ -176,6 +179,7 @@ body {
   flex-wrap: wrap;
   gap: 20px;
   margin-top: 15px;
+  font-size: 18px;
 }
 
 .contact-info{
