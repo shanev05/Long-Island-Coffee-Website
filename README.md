@@ -80,3 +80,11 @@ Day 3
 Day 4
 	Finish up code, final review, upload to GitHub, and submit
 
+
+https://www.youtube.com/watch?v=p1QU3kLFPdg
+https://www.w3schools.com/css/css_text_spacing.asp
+https://www.w3schools.com/css/css_text_spacing.asp
+https://fonts.google.com/selection/embed
+https://www.youtube.com/watch?v=-_LQU5g_eJw
+https://dev.to/albertomontalesi/tutorial-smooth-scrolling-page-navigation-with-css-js-57j5
+https://learn.zybooks.com/zybook/FARMINGDALEBCS350BaciSpring2026
