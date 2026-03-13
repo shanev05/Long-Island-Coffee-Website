@@ -222,7 +222,7 @@ textarea {
   font-size: 14px;
 }
 
-/* Simple responsive */
+
 @media (max-width: 600px) {
   .header-inner {
     flex-direction: column;
@@ -238,3 +238,4 @@ textarea {
     margin-right: 10px;
   }
 }
+
